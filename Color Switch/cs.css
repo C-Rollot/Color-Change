@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'consola';
+    src: url('polices/CONSOLA.TTF');
+}
+
+body {
+    font-family: consola;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    color: white;
+    max-width: 750px;
+    border-radius: 10px;
+}
+
+#switch {
+    font-family: consola;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 5px;
+}
+
+#switch:hover {
+    background-color: black;
+    color: greenyellow;
+    border-color: greenyellow;
+    transition: 0.25s;
+}
